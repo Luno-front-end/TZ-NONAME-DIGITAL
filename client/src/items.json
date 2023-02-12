@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Телевізор Ergo 32",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 250,
+    "type": "tv",
+    "brand": "ergo",
+    "diagonal": 32,
+    "img": "https://f5.ua/img/products/1759902/2058644.jpg",
+    "favorit": 2
+  },
+  {
+    "id": 2,
+    "name": "Телевізор Ergo 42",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 350,
+    "type": "tv",
+    "brand": "ergo",
+    "diagonal": 42,
+    "img": "https://images.prom.ua/2513457513_2513457513.jpg?PIMAGE_ID=2513457513",
+    "favorit": 2
+  },
+  {
+    "id": 3,
+    "name": "Телевізор Xiaomi 37",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 600,
+    "type": "tv",
+    "brand": "xiaomi",
+    "diagonal": 42,
+    "img": "https://content2.rozetka.com.ua/goods/images/big_tile/237028957.jpg",
+    "favorit": 4
+  },
+  {
+    "id": 4,
+    "name": "Телефон Xiaomi",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 100,
+    "type": "phone",
+    "brand": "xiaomi",
+    "diagonal": 5,
+    "img": "https://mobile-review.com/review/image/comparison/redmi-note-10-pro-vs-galaxy-a72/anons3.jpg",
+    "favorit": 3
+  },
+  {
+    "id": 5,
+    "name": "Телефон Apple XR",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 500,
+    "type": "phone",
+    "brand": "apple",
+    "diagonal": 4.2,
+    "img": "https://m.media-amazon.com/images/I/51YCzkERkUL._AC_SX679_.jpg",
+    "favorit": 4
+  },
+  {
+    "id": 6,
+    "name": "Телефон Apple 11",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 650,
+    "type": "phone",
+    "brand": "apple",
+    "diagonal": 5,
+    "img": "https://cdn.newtime.ua/image/import/catalog/iPhone/iPhone-11/iPhone-11-White.webp",
+    "favorit": 2
+  },
+  {
+    "id": 7,
+    "name": "Телефон Apple 12",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 800,
+    "type": "phone",
+    "brand": "apple",
+    "diagonal": 5,
+    "img": "https://www.western.co.uk/wp-content/uploads/2020/10/iPhone-12-mini-Green-VARIATION.png",
+    "favorit": 5
+  },
+
+  {
+    "id": 8,
+    "name": "Ноутбук Apple MacBoock pro",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 1300,
+    "type": "notebook",
+    "brand": "apple",
+    "diagonal": 16,
+    "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-spacegray-select-202206_GEO_EMEA_LANG_DE?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664497359389",
+    "favorit": 5
+  },
+  {
+    "id": 9,
+    "name": "Ноутбук HP pro",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 750,
+    "type": "notebook",
+    "brand": "hp",
+    "diagonal": 15,
+    "img": "https://www.notebookcheck.com/fileadmin/Notebooks/HP/ProBook_470_G3/4zu3_HP_Probook_470_G3.jpg",
+    "favorit": 1
+  },
+  {
+    "id": 10,
+    "name": "Ноутбук HP lite",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 550,
+    "type": "notebook",
+    "brand": "hp",
+    "diagonal": 14,
+    "img": "https://m.media-amazon.com/images/I/71bJqS8ZLTL._SX522_.jpg",
+    "favorit": 2
+  },
+  {
+    "id": 11,
+    "name": "Ноутбук Xiaomi Pro",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 999,
+    "type": "notebook",
+    "brand": "xiaomi",
+    "diagonal": 15,
+    "img": "https://tradingshenzhen.com/9183/xiaomi-notebook-pro-x-15-i7-11370h-32gb1024gb-oled.jpg",
+    "favorit": 4
+  },
+  {
+    "id": 12,
+    "name": "Монітор HP",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 499,
+    "type": "monitor",
+    "brand": "hp",
+    "diagonal": 27,
+    "img": "https://www.hp.com/de-de/shop/Html/Merch/Images/c07056717_1750x1285.jpg",
+    "favorit": 5
+  },
+  {
+    "id": 13,
+    "name": "Монітор Dell",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 499,
+    "type": "monitor",
+    "brand": "dell",
+    "diagonal": 27,
+    "img": "https://click.ua/content/shop/products/79142/photos/monitor-dell-27-se2723ds-210-beqj-ips-black-800x600-82e9.jpg",
+    "favorit": 4
+  },
+  {
+    "id": 14,
+    "name": "Монітор LG",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 399,
+    "type": "monitor",
+    "brand": "lg",
+    "diagonal": 24,
+    "img": "https://www.lg.com/kz/images/monitors/MD06188757/gallery/D02.jpg",
+    "favorit": 1
+  },
+  {
+    "id": 15,
+    "name": "Фотоапарат Canon",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 400,
+    "type": "camera",
+    "brand": "canon",
+    "diagonal": null,
+    "img": "https://content2.rozetka.com.ua/goods/images/big_tile/139379315.jpg",
+    "favorit": 3
+  },
+  {
+    "id": 16,
+    "name": "Фотоапарат Sony",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 600,
+    "type": "camera",
+    "brand": "sony",
+    "diagonal": null,
+    "img": "https://avatars.mds.yandex.net/get-mpic/1111879/img_id5872572604513551409.jpeg/orig",
+    "favorit": 4
+  },
+  {
+    "id": 17,
+    "name": "Фотоапарат Sony",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 800,
+    "type": "camera",
+    "brand": "sony",
+    "diagonal": null,
+    "img": "https://avatars.mds.yandex.net/get-mpic/4705079/img_id3755910613537154078.jpeg/orig",
+    "favorit": 5
+  },
+  {
+    "id": 18,
+    "name": "Фотоапарат Panasonic",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 800,
+    "type": "camera",
+    "brand": "panasonic",
+    "diagonal": null,
+    "img": "https://content1.rozetka.com.ua/goods/images/big/244140180.jpg",
+    "favorit": 4
+  },
+  {
+    "id": 19,
+    "name": "Apple Watch",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 100,
+    "type": "bracelet",
+    "brand": "apple",
+    "diagonal": 4,
+    "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MPH43ref_VW_34FR+watch-45-alum-midnight-cell-8s_VW_34FR_WF_CO_GEO_DE+watch-face-45-nike7s-desertberry-spruceaura_VW_34FR_WF_CO?wid=1400&hei=1400&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660757976267%2C1661968677695%2C1662143432353",
+    "favorit": 5
+  },
+  {
+    "id": 20,
+    "name": "Xiaomi mi band",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 119,
+    "type": "bracelet",
+    "brand": "xiaomi",
+    "diagonal": 2,
+    "img": "https://fitnessarmband.eu/wp-content/uploads/2022/09/xiaomi-mi-band-6-0.jpg",
+    "favorit": 4
+  }
+]
