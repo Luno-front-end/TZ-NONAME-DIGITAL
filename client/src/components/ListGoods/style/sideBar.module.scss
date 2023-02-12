@@ -1,8 +1,16 @@
 .side_bar {
-  background-color: aqua;
+  background-color: rgb(60, 60, 60);
   padding: 15px;
-  //   position: fixed;
 
-  width: 15%;
-  height: auto;
+  width: 10%;
+  min-height: 100vh;
+
+  color: white;
+  position: relative;
+}
+.fixedBar {
+  margin-left: 25px;
+}
+.headerBar {
+  font-size: 20px;
 }

@@ -2,8 +2,15 @@
   display: flex;
 }
 .content {
-  //   background-color: rgb(61, 115, 154);
+  // background-color: rgb(61, 115, 154);
   padding: 15px 15px 15px 60px;
-  width: 85%;
-  min-height: auto;
+  width: 90%;
+  min-height: 100vh;
+}
+.conntaine_paramSoarch {
+  width: 50%;
+
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
 }

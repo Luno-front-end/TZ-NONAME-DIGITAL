@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Телевізор Ergo 32",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 250,
+    "type": "tv",
+    "brand": "ergo",
+    "diagonal": 32,
+    "img": "https://f5.ua/img/products/1759902/2058644.jpg",
+    "favorit": 2
+  },
+  {
+    "id": 2,
+    "name": "Телевізор Ergo 42",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit quae ad, quibusdam corporis explicabo officia porro repudiandae, culpa sed sit? Ipsa, cupiditate dignissimos? Saepe esse laudantium fugit maxime blanditiis.",
+    "price": 350,
+    "type": "tv",
+    "brand": "ergo",
+    "diagonal": 42,
+    "img": "https://images.prom.ua/2513457513_2513457513.jpg?PIMAGE_ID=2513457513",
+    "favorit": 2
+  }
+]

@@ -1,9 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import style from "./header.module.scss";
 
 export const Header = () => {
+  let activeStyle = {
+    backgroundColor: "rgb(97, 97, 97)",
+  };
   return (
     <div className={style.header_container}>
       <div>
@@ -12,28 +15,64 @@ export const Header = () => {
         </div>
         <ul className={style.navList}>
           <li className={style.navItem}>
-            <Link to="/">Головна</Link>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? style.active : style.navLink
+              }
+              // style={({ isActive }) => (isActive ? style.navLink : undefined)}
+            >
+              Головна
+            </NavLink>
           </li>
           <li className={style.navItem}>
-            <Link to="/list-goods">Сторінка з товарами</Link>
+            <NavLink
+              to="/list-goods"
+              className={({ isActive }) =>
+                isActive ? style.active : style.navLink
+              }
+            >
+              Сторінка з товарами
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className={style.box_auth}>
         <ul className={style.nav_authList}>
           <li className={style.nav_authItem}>
-            <Link to="/registration">Реєстрація</Link>
+            <NavLink
+              to="/registration"
+              className={({ isActive }) =>
+                isActive ? style.active : style.navLink
+              }
+            >
+              Реєстрація
+            </NavLink>
           </li>
           <li className={style.nav_authItem}>
-            <Link to="/auth">Авторизація</Link>
+            <NavLink
+              to="/auth"
+              className={({ isActive }) =>
+                isActive ? style.active : style.navLink
+              }
+            >
+              Авторизація
+            </NavLink>
           </li>
         </ul>
         <ul className={style.nav_authList}>
           <li className={style.nav_authItem}>
-            <Link to="/registration">Профіль</Link>
+            <NavLink
+              to="/basket"
+              className={({ isActive }) =>
+                isActive ? style.active : style.navLink
+              }
+            >
+              Корзина
+            </NavLink>
           </li>
           <li className={style.nav_authItem}>
-            <Link to="/auth">Корзина</Link>
+            <Link to="/profile">Профіль</Link>
           </li>
         </ul>
       </div>
