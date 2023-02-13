@@ -1,22 +1,23 @@
-import React, { useState } from "react";
-
-import Button from "@mui/material/Button";
-import { Input } from "../Input";
-import style from "./auth.module.scss";
-
-import { useAuthByEmail } from "../hooks/useAuthOrRegByEmail";
+import TextField from "@mui/material/TextField";
 import { useAuthByGoogle } from "../hooks/useAuthByGoogle";
+import Button from "@mui/material/Button";
 
-export const Auth = () => {
-  const [email, setEmail] = useState();
-  const [pass, setPass] = useState();
-  const { handleLoginEmail } = useAuthByEmail();
+import style from "./auth.module.scss";
+import { useState } from "react";
+import { Input } from "../Input";
+
+import { useRegByEmail } from "../hooks/useAuthOrRegByEmail";
+
+export const Reg = () => {
+  const [email, setEmail] = useState("");
+  const [pass, setPass] = useState("");
+  const { handleSingUp } = useRegByEmail();
   const { handleLoginGoogle } = useAuthByGoogle();
 
   return (
     <div className="container">
       <div className={style.box_form}>
-        <h1>Автотризація</h1>
+        <h1>Реєстрація</h1>
 
         <div className={style.form_container}>
           <Input
@@ -26,6 +27,7 @@ export const Auth = () => {
             label="Email"
             type="email"
           />
+
           <Input
             class={style.form_input}
             value={pass}
@@ -33,14 +35,15 @@ export const Auth = () => {
             label="Пароль"
             type="password"
           />
-
           <Button
             variant="contained"
             type="submit"
-            onClick={(e) => handleLoginEmail(e, email, pass)}
+            onClick={(e) => {
+              handleSingUp(e, email, pass);
+            }}
             className={style.btn_submite}
           >
-            Авторизуватися
+            Зареєструватися
           </Button>
           <Button
             variant="contained"
@@ -48,7 +51,7 @@ export const Auth = () => {
             onClick={(e) => handleLoginGoogle(e)}
             className={style.btn_submite}
           >
-            Авторизуватися Google
+            Зареєструватися Google
           </Button>
         </div>
       </div>

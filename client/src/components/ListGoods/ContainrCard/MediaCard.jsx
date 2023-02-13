@@ -8,17 +8,15 @@ export const MediaCard = (props) => {
 
   return (
     <div className={style.container_card}>
-      <div className={style.box_card}>
-        {filterByOptions(items, dataFilters).length === 0 ? (
-          <ProductNotFound />
-        ) : (
-          <ContainerCard
-            filterByOptions={filterByOptions}
-            dataFilters={dataFilters}
-            stateSearch={stateSearch}
-          />
-        )}
-      </div>
+      {filterByOptions(items, dataFilters).length === 0 ? (
+        <ProductNotFound />
+      ) : (
+        <ContainerCard
+          filterByOptions={filterByOptions}
+          dataFilters={dataFilters}
+          stateSearch={stateSearch}
+        />
+      )}
     </div>
   );
 };

@@ -1,12 +1,18 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
+import { useAuth } from "../hooks/useAuth";
+
+import { AuthNav } from "./AuthNav/AuthNav";
+import { RegistrationNav } from "./AuthNav/RegistrationNav";
+
 import style from "./header.module.scss";
 
 export const Header = () => {
-  let activeStyle = {
-    backgroundColor: "rgb(97, 97, 97)",
-  };
+  const { isAuth } = useAuth();
+
+  console.log(isAuth);
+
   return (
     <div className={style.header_container}>
       <div>
@@ -20,7 +26,6 @@ export const Header = () => {
               className={({ isActive }) =>
                 isActive ? style.active : style.navLink
               }
-              // style={({ isActive }) => (isActive ? style.navLink : undefined)}
             >
               Головна
             </NavLink>
@@ -38,43 +43,7 @@ export const Header = () => {
         </ul>
       </div>
       <div className={style.box_auth}>
-        <ul className={style.nav_authList}>
-          <li className={style.nav_authItem}>
-            <NavLink
-              to="/registration"
-              className={({ isActive }) =>
-                isActive ? style.active : style.navLink
-              }
-            >
-              Реєстрація
-            </NavLink>
-          </li>
-          <li className={style.nav_authItem}>
-            <NavLink
-              to="/auth"
-              className={({ isActive }) =>
-                isActive ? style.active : style.navLink
-              }
-            >
-              Авторизація
-            </NavLink>
-          </li>
-        </ul>
-        <ul className={style.nav_authList}>
-          <li className={style.nav_authItem}>
-            <NavLink
-              to="/basket"
-              className={({ isActive }) =>
-                isActive ? style.active : style.navLink
-              }
-            >
-              Корзина
-            </NavLink>
-          </li>
-          <li className={style.nav_authItem}>
-            <Link to="/profile">Профіль</Link>
-          </li>
-        </ul>
+        {isAuth ? <AuthNav /> : <RegistrationNav />}
       </div>
     </div>
   );
