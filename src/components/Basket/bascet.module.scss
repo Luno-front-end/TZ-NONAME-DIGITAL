@@ -1,0 +1,128 @@
+.product_centr {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   text-align: center;
+  width: 100%;
+}
+.conainner_basket {
+  text-align: center;
+  max-width: 900px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product_list {
+  // display: block;
+}
+.product_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.product_head {
+}
+.product_info {
+  text-align: center;
+}
+.product_control {
+}
+.product_img {
+  width: 200px;
+}
+.box_calc {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+
+  color: rgba(255, 255, 255, 0.87);
+  display: inline-block;
+  background-color: rgb(60, 60, 60);
+  border-radius: 4px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  border: none;
+}
+.product_count {
+  font-size: 20px;
+  padding: 0;
+  margin: 0 10px 0 10px;
+}
+
+.product_price {
+}
+.btn_delete {
+  border-radius: 50%;
+  font-size: 20px;
+
+  color: rgba(255, 255, 255, 0.87);
+  display: inline-block;
+  background-color: rgba(162, 7, 7, 0.78);
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  border: none;
+}
+.product_total {
+}
+.btn_buy {
+  border-radius: 50%;
+  font-size: 15px;
+  width: 100%;
+
+  color: rgba(255, 255, 255, 0.87);
+  display: inline-block;
+  background-color: rgba(41, 162, 7, 0.78);
+  height: 40px;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  border: none;
+}
+.product_not_basket {
+  font-size: 30px;
+}
+.product_link {
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(60, 60, 60);
+
+  height: 40px;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  border: none;
+}

@@ -1,0 +1,17 @@
+.container_search {
+  width: 20%;
+
+  // margin-bottom: 40px;
+
+  // display: flex;
+  // align-items: center;
+}
+.search_input {
+  width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .container_search {
+    width: 100%;
+  }
+}

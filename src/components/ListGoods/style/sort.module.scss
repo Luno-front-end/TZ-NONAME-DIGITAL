@@ -1,0 +1,15 @@
+.container_sort {
+  width: 20%;
+  margin-left: 5px;
+}
+.sort_form {
+  width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .container_sort {
+    width: 100% !important;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+}

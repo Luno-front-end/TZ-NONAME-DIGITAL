@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.go {
+  background-color: rgba(0, 0, 0, 0.06) !important;
+  box-shadow: none !important;
+  height: 56px !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.side_bar {
+  color: white;
+}
+.fixedBar {
+  margin-left: 25px;
+}
+.headerBar {
+  font-size: 20px;
+}
+
+.contain {
+  width: 20%;
+  cursor: pointer !important;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1280px) {
+  .contain {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+.open {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  z-index: 99999;
+  transform: translateX(-411%);
+  transition: all 250ms linear;
+  overflow: auto;
+  height: 106.4vh;
+}
+.close {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  transform: translateX(-700%);
+  transition: all 250ms linear;
+  overflow: auto;
+  height: 106.4vh;
+}

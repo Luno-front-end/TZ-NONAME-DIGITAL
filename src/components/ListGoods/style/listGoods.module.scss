@@ -1,0 +1,29 @@
+.g_page {
+  display: flex;
+}
+.content {
+  // background-color: rgb(61, 115, 154);
+  margin-top: 15px;
+  padding: 0 15px 15px 15px;
+  width: 100%;
+  min-height: 100vh;
+}
+.container_paramSoarch {
+  max-width: 100%;
+
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .container_paramSoarch {
+    max-width: 100%;
+
+    margin-bottom: 40px;
+    display: block;
+    // align-items: center;
+    // justify-content: center;
+  }
+}

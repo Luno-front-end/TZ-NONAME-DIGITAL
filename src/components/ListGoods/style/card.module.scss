@@ -1,0 +1,13 @@
+.container_card {
+}
+.box_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin-bottom: 15px;
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.container_success {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_success {
+  background-color: rgb(72, 212, 64);
+  border: 2px solid green;
+  border-radius: 10px;
+  max-width: 550px;
+  padding: 15px;
+  text-align: center;
+}
+.success_head {
+  margin: 0;
+  padding: 0;
+}
