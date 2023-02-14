@@ -19,7 +19,12 @@ export const Reg = () => {
       <div className={style.box_form}>
         <h1>Реєстрація</h1>
 
-        <div className={style.form_container}>
+        <form
+          onSubmit={(e) => {
+            handleSingUp(e, email, pass);
+          }}
+          className={style.form_container}
+        >
           <Input
             classIn={style.form_input}
             value={email}
@@ -38,9 +43,6 @@ export const Reg = () => {
           <Button
             variant="contained"
             type="submit"
-            onClick={(e) => {
-              handleSingUp(e, email, pass);
-            }}
             className={style.btn_submite}
           >
             Зареєструватися
@@ -53,7 +55,7 @@ export const Reg = () => {
           >
             Зареєструватися Google
           </Button>
-        </div>
+        </form>
       </div>
     </div>
   );

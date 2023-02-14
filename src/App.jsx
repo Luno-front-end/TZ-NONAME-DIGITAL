@@ -18,37 +18,39 @@ export const App = () => {
     <div>
       <Header />
 
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/registration" element={<Reg />} />
-        <Route path="/auth" element={<Auth />} />
-        <Route path="/list-goods" element={<ListGoods />} />
-        <Route
-          path="/basket"
-          element={
-            <PrivateRoute>
-              <Basket />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/profile"
-          element={
-            <PrivateRoute>
-              <Profile />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/success"
-          element={
-            <PrivateRoute>
-              <Success />
-            </PrivateRoute>
-          }
-        />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/registration" element={<Reg />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/list-goods" element={<ListGoods />} />
+          <Route
+            path="/basket"
+            element={
+              <PrivateRoute>
+                <Basket />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/profile"
+            element={
+              <PrivateRoute>
+                <Profile />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/success"
+            element={
+              <PrivateRoute>
+                <Success />
+              </PrivateRoute>
+            }
+          />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
 
       <Footer />
     </div>

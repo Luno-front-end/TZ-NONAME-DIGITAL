@@ -13,6 +13,7 @@ export const useAuthByEmail = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const handleLoginEmail = (e, email, pass) => {
+    console.log(email);
     e.preventDefault();
     const auth = getAuth();
     signInWithEmailAndPassword(auth, email, pass)
@@ -26,7 +27,7 @@ export const useAuthByEmail = () => {
         );
         navigate("/");
       })
-      .catch(console.error);
+      .catch(alert("Пошта чи пороль не вірні або поля пусті"));
   };
   return { handleLoginEmail };
 };
@@ -36,6 +37,8 @@ export const useRegByEmail = () => {
   const navigate = useNavigate();
 
   const handleSingUp = (e, email, pass) => {
+    console.log(email);
+
     e.preventDefault();
     const auth = getAuth();
     createUserWithEmailAndPassword(auth, email, pass)
@@ -49,7 +52,7 @@ export const useRegByEmail = () => {
         );
         navigate("/");
       })
-      .catch(console.error);
+      .catch(alert("Пошта чи пороль не вірні або поля пусті"));
   };
   return { handleSingUp };
 };
