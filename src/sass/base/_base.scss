@@ -2,7 +2,6 @@ html,
 body {
   min-height: 100vh;
   position: relative;
-  box-sizing: inherit;
   z-index: -3;
 }
 
@@ -18,4 +17,7 @@ ul {
 }
 .container {
   padding-bottom: 70px;
+}
+.off-scroll {
+  overflow: hidden;
 }

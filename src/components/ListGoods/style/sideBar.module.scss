@@ -1,53 +1,71 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.containerSideBar {
+  background-color: rgba(46, 46, 46, 0.351);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 99;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 150ms linear;
 }
-.go {
-  background-color: rgba(0, 0, 0, 0.06) !important;
-  box-shadow: none !important;
-  height: 56px !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+.containerSideBarActive {
+  pointer-events: painted;
+  opacity: 1;
+  transition: opacity 150ms linear;
 }
 
-.side_bar {
+.wrapperSideBar {
+  width: 225px;
+  height: 100vh;
+  background-color: #1976d2;
+  padding: 15px 15px 15px 25px;
   color: white;
+  overflow-y: scroll;
+  transform: translateX(-100%);
+  transition: transform 150ms linear;
+}
+
+.open {
+  transform: translateX(0%);
+  transition: transform 150ms linear;
+  z-index: 99;
 }
 .fixedBar {
-  margin-left: 25px;
-}
-.headerBar {
-  font-size: 20px;
+  margin-bottom: 90px;
 }
 
-.contain {
-  width: 20%;
-  cursor: pointer !important;
+.btnOpen {
+  letter-spacing: inherit;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  height: 1.4375em;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.06);
+  display: block;
+  min-width: 0;
+  width: 100%;
+  animation-duration: 10ms;
+  padding-top: 16px;
+
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(110, 110, 110);
+}
+.btnWrapper {
+  display: inline-block;
   margin-left: 5px;
-}
+  width: 150px;
 
+  margin-top: 0;
+}
 @media screen and (max-width: 1280px) {
-  .contain {
+  .btnWrapper {
+    display: inline-block;
     width: 100%;
     margin-top: 5px;
     margin-left: 0;
   }
-}
-.open {
-  position: absolute;
-  top: -15px;
-  left: 0;
-  z-index: 99999;
-  transform: translateX(-411%);
-  transition: all 250ms linear;
-  overflow: auto;
-  height: 106.4vh;
-}
-.close {
-  position: absolute;
-  top: -15px;
-  left: 0;
-  transform: translateX(-700%);
-  transition: all 250ms linear;
-  overflow: auto;
-  height: 106.8vh;
 }

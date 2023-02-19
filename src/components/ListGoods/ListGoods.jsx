@@ -33,13 +33,13 @@ export const ListGoods = () => {
             handleChengeSearch={handleChengeSearch}
           />
 
-          <SideBar setValueInput={setDataFilters} />
           <Sort
             items={stateGoods.length === 0 ? items : stateGoods}
             dataFilters={dataFilters}
             handleChangeSort={handleChangeSort}
             valuesSort={values}
           />
+          <SideBar setValueInput={setDataFilters} />
         </div>
         <MediaCard
           dataFilters={dataFilters}
